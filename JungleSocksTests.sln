@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing.JungleSocks.UI", "JungleSocksTests\Testing.JungleSocks.UI.csproj", "{A8D643F4-EE39-4E86-A689-06B6D43AB41D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing.JungleSocks.UITests", "Testing.JungleSocks.UI.Tests\Testing.JungleSocks.UITests.csproj", "{CD386FAE-4B70-4C11-BB19-E23ADB8604C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing.JungleSocks.Services", "Testing.JungleSocks.Services\Testing.JungleSocks.Services.csproj", "{DB3671A5-3D7C-44E6-B898-A8597502E08A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing.JungleSocks.ServicesTests", "Testing.JungleSocks.ServicesTests\Testing.JungleSocks.ServicesTests.csproj", "{F8F73BEB-3347-4FAF-8CB4-75DC69B3C583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRunner", "TestRunner\TestRunner.csproj", "{F17E3F76-4A20-4C91-847B-1164308504D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C77B3855-6008-483E-B022-0D1E72248D29}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8D643F4-EE39-4E86-A689-06B6D43AB41D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D643F4-EE39-4E86-A689-06B6D43AB41D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D643F4-EE39-4E86-A689-06B6D43AB41D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D643F4-EE39-4E86-A689-06B6D43AB41D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD386FAE-4B70-4C11-BB19-E23ADB8604C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD386FAE-4B70-4C11-BB19-E23ADB8604C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD386FAE-4B70-4C11-BB19-E23ADB8604C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD386FAE-4B70-4C11-BB19-E23ADB8604C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB3671A5-3D7C-44E6-B898-A8597502E08A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB3671A5-3D7C-44E6-B898-A8597502E08A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB3671A5-3D7C-44E6-B898-A8597502E08A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB3671A5-3D7C-44E6-B898-A8597502E08A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8F73BEB-3347-4FAF-8CB4-75DC69B3C583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F73BEB-3347-4FAF-8CB4-75DC69B3C583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F73BEB-3347-4FAF-8CB4-75DC69B3C583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F73BEB-3347-4FAF-8CB4-75DC69B3C583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F17E3F76-4A20-4C91-847B-1164308504D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17E3F76-4A20-4C91-847B-1164308504D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17E3F76-4A20-4C91-847B-1164308504D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17E3F76-4A20-4C91-847B-1164308504D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
